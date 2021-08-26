@@ -579,7 +579,7 @@ body {
     .row_flex li a,
     .row_flex li a:visited,
     .row_flex li a:link {
-        font-size: 7vw;
+        font-size: 5vw;
         color: #242F51;
     }
     .row_flex li a:hover {
@@ -632,10 +632,10 @@ body {
         transition: all .5s ease-in-out;
     }
     .menu_btn::before {
-        transform: translateY(-16px);
+        transform: translateY(-10px);
     }
     .menu_btn::after {
-        transform: translateY(16px);
+        transform: translateY(10px);
     }
     .menu.open .menu_btn {
         transform: translateX(-50px);
