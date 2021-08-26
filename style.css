@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .hd {
     position: relative;
     z-index: 1002;
