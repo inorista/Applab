@@ -579,7 +579,7 @@ body {
     .row_flex li a,
     .row_flex li a:visited,
     .row_flex li a:link {
-        font-size: 5vw;
+        font-size: 30px;
         color: #242F51;
     }
     .row_flex li a:hover {
@@ -649,9 +649,7 @@ body {
     }
     .phone,
     .watch,
-    .reg,
-    .circle,
-    .triangle {
+    .reg {
         display: none;
     }
     .wrap {
@@ -771,6 +769,12 @@ body {
     .all_feature {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .intro_gr {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 }
