@@ -129,9 +129,13 @@ body {
 .intro .head_description {
     padding-top: 10px;
     font-size: 60px;
-    color: #242f51;
+    color: transparent;
     font-weight: 700;
     line-height: 1.4;
+    background-image: url("https://i.pinimg.com/originals/05/7a/b2/057ab2724ab5d83bd1a7fd22bf91a71b.gif");
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .intro .description {
